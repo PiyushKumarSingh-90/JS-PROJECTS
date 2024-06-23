@@ -1,0 +1,63 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container
+{
+    width:100%;
+    height:100vh;
+    background: #201f21;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box
+{
+    width:400px;
+    height:60px;
+    position:relative;
+}
+
+.input-box input
+{
+    width:100%;
+    height:60px;
+    padding:0 20px;
+    border: 1px solid #ccc;
+    outline:none;
+    color:aliceblue;
+    background:transparent;
+}
+
+button
+{
+    height:50px;
+    width:5%;
+    font-size:30px;
+    background:transparent;
+    color:aliceblue;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:15px;
+}
+
+#massage
+{
+    position:absolute;
+    bottom:-30px;
+    color:aliceblue;
+    font-size:15px;
+}
+
+::placeholder
+{
+    font-size:15px;
+}
